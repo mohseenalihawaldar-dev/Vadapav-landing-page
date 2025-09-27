@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mumbai Vada Pav</title>
+    <link rel="icon" type="image/webp" href="vada logo.webp" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ✅ Navbar -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="vada logo.webp" alt="Vada Pav Logo" />
+          <h2>Mumbai Vada Pav</h2>
+        </div>
+        <div class="hamburger">&#9776;</div>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#order">Order</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ✅ Hero Section (Orange) -->
+    <section id="hero" class="hero section-orange">
+      <div class="hero-content">
+        <h1>Delicious Vada Pav Awaits You!</h1>
+        <p>
+          Authentic taste of Mumbai’s favorite street food, freshly served hot &
+          crispy.
+        </p>
+        <a href="#order" class="btn">Order Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="vada.webp" alt="Vadapav" />
+      </div>
+    </section>
+
+    <!-- ✅ Menu Section (White) -->
+    <section id="menu" class="section-white">
+      <h2>Our Special Menu</h2>
+      <div class="menu-items">
+        <div class="menu-card">
+          <h3>Classic Vada Pav</h3>
+          <p>Spicy potato filling, fried to perfection.</p>
+        </div>
+        <div class="menu-card">
+          <h3>Cheese Vada Pav</h3>
+          <p>Extra cheesy delight for foodies.</p>
+        </div>
+        <div class="menu-card">
+          <h3>Jain Vada Pav</h3>
+          <p>No onion, no garlic — pure and tasty.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ About Section (Orange) -->
+    <section id="about" class="section-orange">
+      <h2>About Us</h2>
+      <p>
+        We bring you the true flavors of Mumbai’s iconic Vada Pav. Our passion
+        is to serve hot, crispy, and delicious snacks with authentic spices that
+        make every bite unforgettable.
+      </p>
+    </section>
+
+    <!-- ✅ Order Section (White) -->
+    <section id="order" class="section-white order-section">
+      <h2>Order Your Vada Pav</h2>
+      <form action="https://www.freecodecamp.com/email-submit">
+        <input type="email" placeholder="Enter your email" required />
+        <input type="submit" value="Get Offer" />
+      </form>
+    </section>
+
+    <script>
+      // ✅ Hamburger toggle
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+
+      window.addEventListener("scroll", () => {
+        const navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("scrolled", window.scrollY > 50);
+      });
+    </script>
+  </body>
+</html>
