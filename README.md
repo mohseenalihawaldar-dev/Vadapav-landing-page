@@ -2,7 +2,7 @@
 
 A modern and responsive landing page dedicated to Mumbai's favorite snack, the Vada Pav. This project is a visually appealing showcase built with HTML and CSS, designed to practice and demonstrate core front-end development skills, including responsive design with Flexbox and media queries.
 
-**➡️ [View Live Demo]((https://mumbaivada-preview.netlify.app/))**
+**➡️ [View Live Demo](https://mumbaivada-preview.netlify.app/)**
 
 
 ---
@@ -37,13 +37,13 @@ This is a static web page with no complex dependencies.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-github-username/vada-pav-landing-page.git](https://github.com/your-github-username/vada-pav-landing-page.git)
+    git clone https://github.com/mohseenalihawaldar-dev/Vadapav-landing-page.git
     ```
     
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd vada-pav-landing-page
+    cd Vadapav-landing-page
     ```
 
 ---
